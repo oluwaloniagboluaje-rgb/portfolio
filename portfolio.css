@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f7f8 !important;
+  line-height: 1.7;
+  color: #15202d;
+}
+
+nav {
+  width: 100%;
+  background: #071228;
+  padding: 20px 32px;
+  border: none;
+  overflow-x: hidden;
+}
+
+.nav-link a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #15202d;
+  margin: 0 10px;
+}
+
+.hero {
+    /* min-height: 60vh; */
+    height: 100vh;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(13, 110, 253, 0.08), rgba(2, 6, 23, 0.02));
+}
+
+.badge-accent {
+    /* background: rgba(13, 110, 253, 0.12); */
+    color: var(--accent);
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+
+.feature {
+    background: white;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 6px 18px rgba(18, 38, 63, 0.06);
+    height: 100%;
+}
+
+.project-card {
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #ffffff, #fbfdff);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(11, 18, 32, 0.08);
+}
+
+.footer {
+    background: #071228;
+    color: #dbe9ff;
+    padding: 3rem 0;
+}
