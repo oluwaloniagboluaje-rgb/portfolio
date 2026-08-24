@@ -1,178 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfoloio.css">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c88c012537.js" crossorigin="anonymous"></script>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agboluaje Oluwalonimi Margaret — Full-Stack Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
 </head>
-
 <body>
 
-    <nav
-        class=" navbar navbar-expand-lg  bg-secondary justify-content-between align-items-center py-2 border-bottom position-fixed z-3 fixed-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold text-primary" href="#">
-                <img src="./nimitech.jpg" alt="" width="50">
-                <span class="badge-accent mt-5 text-center fw-bold text-dark">Nimi's Tech</span>
-
-
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto align-items-center ">
-                    <li class="nav-item"><a class="nav-link" href="#about">About <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#work">Work <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact <i class="fa-solid fa-angle-down"></i></a></li>
-                </ul>
-            </div>
-        </div>
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand"><span class="mark">AO</span>Oluwalonimi</a>
+    <nav class="links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="nav-cta">Contact Me</a>
     </nav>
-    <header class="hero py-5 mt-5 bg-secondary">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <h1 class="mt-3" style="font-weight:800;">Modern websites for growing businesses</h1>
-                    <p class="lead text-muted mb-4">I build clean, responsive, and conversion-focused websites using
-                        HTML, CSS, and Bootstrap — optimized for performance and mobile-first users.</p>
-                    <div class="d-flex gap-3">
-                        <a href="#contact" class="btn btn-primary btn-lg">Hire me</a>
-                        <a href="#work" class="btn btn-outline-primary btn-lg">See my work</a>
-                    </div>
-                </div>
-                <div class="col-lg-5 mt-4 mt-lg-0">
-                    <div class="feature p-4">
-                        <h5>Quick facts</h5>
-                        <ul class="list-unstyled mb-0" style="line-height:1.9">
-                            <li><strong>Business:</strong> Nimi's Tech — Tech startup</li>
-                            <li><strong>Role:</strong> Website Developer</li>
-                            <li><strong>Focus:</strong> Corporate & modern websites</li>
-                            <li><strong>Availability:</strong> Freelance & contract</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-single">
+    <h1 class="headline">I turn ideas into <em>functional</em> digital journeys.</h1>
+    <p class="hero-sub">I'm Oluwalonimi — a full-stack developer with a year of hands-on experience shipping responsive, interactive web applications, from first line of code to production deploy.</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-primary">View My Projects</a>
+      <a href="https://github.com/oluwaloniagboluaje-rgb" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+      <a href="#contact" class="btn-text">Contact me →</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <div class="about-card">
+        <span class="label">Developer Profile</span>
+        <div class="name">Agboluaje Oluwalonimi</div>
+        <div class="role">Full-Stack Web Developer</div>
+        <hr>
+        <div class="stat-row"><span>Experience</span><b>1 year</b></div>
+        <div class="stat-row"><span>Core stack</span><b>Next.js · TS</b></div>
+        <div class="stat-row"><span>Background</span><b>Food Science</b></div>
+        <div class="stat-row"><span>Based in</span><b>Nigeria</b></div>
+      </div>
+    </div>
+    <div class="reveal about-body">
+      <span class="kicker">About Me</span>
+      <h2 style="margin-bottom:22px;">Built for building</h2>
+      <p>I'm a passionate web developer focused on building useful, responsive, and visually engaging web applications. My development journey has given me hands-on experience with modern JavaScript technologies, including React, Next.js, TypeScript, and Node.js.</p>
+      <p>I learn best by building. Over the past year I've created projects ranging from logistics and route-based applications to business websites, educational platforms, and other web applications.</p>
+      <p>My goal is to keep growing as a developer while working with talented teams on products that solve real problems.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt" id="what-i-do">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">What I Do</span>
+      <h2>From interface to server</h2>
+      <p>I work comfortably across the stack — shaping what people see and building what makes it run.</p>
+    </div>
+    <div class="do-grid">
+      <div class="do-card reveal">
+        <div class="do-icon" style="background:rgba(31,78,61,0.1);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1F4E3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
         </div>
-    </header>
-
-    <main class="py-5 bg-secondary">
-        <section id="about" class="container py-5">
-            <h3>About</h3>
-            <p class="text-muted">
-                Nimi's Tech is led by <strong>Oluwaloni Agboluaje</strong>, a focused website developer who builds
-                modern, accessible and responsive websites.
-                With an eye for detail and clean code, Oluwaloni delivers end-to-end front-end solutions — from
-                pixel-perfect layouts to Bootstrap-based responsive grids.
-            </p>
-        </section>
-
-        <section id="services" class="container py-5 bg-secondary">
-            <h3>Services</h3>
-            <div class="row g-4 mt-3">
-                <div class="col-md-4">
-                    <div class="feature">
-                        <h5>Website Development</h5>
-                        <p class="text-muted small">Custom responsive websites built with HTML, CSS, and Bootstrap —
-                            landing pages, business sites, and portfolios.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature">
-                        <h5>Bootstrap Integration</h5>
-                        <p class="text-muted small">Fast prototyping and production-ready components using Bootstrap and
-                            utility-first approaches.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature">
-                        <h5>Maintenance & Support</h5>
-                        <p class="text-muted small">Ongoing updates, content changes, and performance tuning so your
-                            site stays current.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="work" class="container py-5 bg-secondary">
-            <h3>Selected Work</h3>
-            <div class="row g-4 mt-3">
-                <div class="col-md-4">
-                    <div class="project-card p-3">
-                        <div
-                            style="height:160px;background:#e9f0ff;display:flex;align-items:center;justify-content:center;">
-                            <div style="font-weight:700;color:var(--accent)">Corporate Landing</div>
-                        </div>
-                        <div class="p-3">
-                            <h6>Corporate Landing</h6>
-                            <p class="small text-muted">A minimal homepage designed to highlight services and CTAs for
-                                conversion.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project-card p-3">
-                        <div
-                            style="height:160px;background:#fff4f6;display:flex;align-items:center;justify-content:center;">
-                            <div style="font-weight:700;color:#d63384">Portfolio Template</div>
-                        </div>
-                        <div class="p-3">
-                            <h6>Portfolio Template</h6>
-                            <p class="small text-muted">A clean showcase template for creators and agencies.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project-card p-3">
-                        <div
-                            style="height:160px;background:#eafff0;display:flex;align-items:center;justify-content:center;">
-                            <div style="font-weight:700;color:#198754">Small Business Site</div>
-                        </div>
-                        <div class="p-3">
-                            <h6>Small Business Site</h6>
-                            <p class="small text-muted">A compact site for local businesses with booking or contact
-                                forms.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="container py-5">
-            <h3>Contact</h3>
-            <p class="text-muted">Let's build something great together.</p>
-            <ul class="list-unstyled fw-bold text-white">
-                <li><strong>Email:</strong> <a
-                        href="mailto:oluwaloniagboluaje@gmail.com">oluwaloniagboluaje@gmail.com</a></li>
-                <li><strong>Phone:</strong> <a href="tel:+2349159941151">+234 915 994 1151</a></li>
-                <li><strong>Instagram:</strong> <a href="https://instagram.com/pempe_ayanfe"
-                        target="_blank">@pempe_ayanfe</a></li>
-            </ul>
-        </section>
-    </main>
-
-    <footer class="footer text-center bg-secondary">
-        <div class="container">
-            <p class="mb-0">© Nimi's Tech — Built by Oluwaloni Agboluaje</p>
+        <h3>Frontend Development</h3>
+        <p>Responsive, interactive interfaces built with modern frontend technologies and an eye for clean UI.</p>
+        <div class="tag-row">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">React</span><span class="tag">Next.js</span>
         </div>
-    </footer>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon" style="background:rgba(181,83,60,0.1);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#B5533C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+        </div>
+        <h3>Backend Development</h3>
+        <p>Server-side functionality and application logic built with Node.js and structured backend architecture.</p>
+        <div class="tag-row">
+          <span class="tag">Node.js</span><span class="tag">REST APIs</span><span class="tag">Server Logic</span><span class="tag">Databases</span>
+        </div>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon" style="background:rgba(179,135,46,0.14);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#B3872E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M9 6h6a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3H9a3 3 0 0 0-3 3v0"/></svg>
+        </div>
+        <h3>Full-Stack Development</h3>
+        <p>Connecting frontend and backend to ship complete, functional web applications from the ground up.</p>
+        <div class="tag-row">
+          <span class="tag">Frontend</span><span class="tag">Backend</span><span class="tag">APIs</span><span class="tag">Deployment</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<section id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Tech Stack</span>
+      <h2>Tools I reach for</h2>
+    </div>
+    <div class="stack-grid reveal">
+      <div class="stack-col">
+        <h4>Languages</h4>
+        <ul><li>JavaScript</li><li>TypeScript</li><li>HTML</li><li>CSS</li></ul>
+      </div>
+      <div class="stack-col">
+        <h4>Frontend</h4>
+        <ul><li>React</li><li>Next.js</li><li>Responsive Design</li></ul>
+      </div>
+      <div class="stack-col">
+        <h4>Backend</h4>
+        <ul><li>Node.js</li><li>REST APIs</li><li>Server-side Dev</li></ul>
+      </div>
+      <div class="stack-col">
+        <h4>Tools</h4>
+        <ul><li>Git</li><li>GitHub</li><li>VS Code</li><li>Vercel</li><li>npm</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Featured Projects</span>
+      <h2>A few stops along the way</h2>
+      <p>Each project below is a stop on the route from idea to shipped product.</p>
+    </div>
+
+    <div class="project-rail">
+      <div class="route-rail"></div>
+
+      <div class="stop reveal">
+        <span class="stop-marker"></span>
+        <div class="project-card">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#FAF6EC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="7" width="15" height="10" rx="1"/><path d="M16 10h4l3 3v4h-7z"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/></svg>
+          </div>
+          <div>
+            <div class="project-top">
+              <div>
+                <div class="project-title">CityBike Logistics</div>
+                <span class="project-cat">Logistics · Full-Stack · Next.js</span>
+              </div>
+            </div>
+            <p class="project-desc">A modern logistics-focused web application built with TypeScript and Next.js. It demonstrates my ability to work with a full-stack framework, organize application architecture, build reusable interfaces, and deploy a production-style app.</p>
+            <div class="project-tech"><b>Tech:</b> Next.js · TypeScript · React</div>
+            <div class="project-links">
+              <a href="https://citybike-sage.vercel.app/" target="_blank" rel="noopener">View Live Project ↗</a>
+              <a href="https://github.com/oluwaloniagboluaje-rgb/citybike" target="_blank" rel="noopener">View Source Code ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stop reveal">
+        <span class="stop-marker"></span>
+        <div class="project-card">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#FAF6EC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg>
+          </div>
+          <div>
+            <div class="project-top">
+              <div>
+                <div class="project-title">Swift Route</div>
+                <span class="project-cat">Logistics · Full-Stack · UK</span>
+              </div>
+            </div>
+            <p class="project-desc">A logistics platform built for a delivery and cargo company operating across the UK, with live driver tracking so customers can follow a shipment from pickup to delivery in real time.</p>
+            <div class="project-tech"><b>Tech:</b> Next.js · TypeScript · Real-time Tracking</div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">View Live Project ↗</a>
+              <a href="#" target="_blank" rel="noopener">View Source Code ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stop reveal">
+        <span class="stop-marker"></span>
+        <div class="project-card">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#FAF6EC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2h8l1 6a5 5 0 0 1-10 0z"/><path d="M12 13v6M9 21h6"/></svg>
+          </div>
+          <div>
+            <div class="project-top">
+              <div>
+                <div class="project-title">Nimi's Crest Wine</div>
+                <span class="project-cat">Business Website · Frontend</span>
+              </div>
+            </div>
+            <p class="project-desc">A modern business-oriented website created for a wine brand, focused on visual presentation, responsive design, brand identity, and an engaging visitor experience.</p>
+            <div class="project-tech"><b>Tech:</b> HTML · CSS · JavaScript</div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">View Project ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="more-projects reveal">
+      <h4>More Projects</h4>
+      <div class="chip-row">
+        <span class="chip">Piggyvest-inspired interface</span>
+        <span class="chip">Portfolio website</span>
+        <span class="chip">Calculator application</span>
+        <span class="chip">LytQuest</span>
+        <span class="chip">Contact Card</span>
+        <span class="chip">JavaScript projects</span>
+      </div>
+      <a href="https://github.com/oluwaloniagboluaje-rgb" target="_blank" rel="noopener" class="btn btn-primary">Explore All Projects on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">My Development Journey</span>
+      <h2>How I got here</h2>
+    </div>
+    <div class="journey-grid">
+      <div class="j-step reveal">
+        <span class="j-num">01</span>
+        <h3>Learn</h3>
+        <p>Started with the fundamentals — understanding how websites and applications actually work.</p>
+      </div>
+      <div class="j-step reveal">
+        <span class="j-num">02</span>
+        <h3>Build</h3>
+        <p>Moved from tutorials into practical projects, applying what I learned to real interfaces.</p>
+      </div>
+      <div class="j-step reveal">
+        <span class="j-num">03</span>
+        <h3>Explore Full-Stack</h3>
+        <p>Expanded into backend development, APIs, and connecting frontend work to server-side logic.</p>
+      </div>
+      <div class="j-step reveal">
+        <span class="j-num">04</span>
+        <h3>Keep Growing</h3>
+        <p>Continuously improving my skills, looking forward to working on professional products with a team.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt" id="education">
+  <div class="wrap edu-wrap">
+    <div class="edu-card reveal">
+      <span class="edu-tag">Education</span>
+      <h3>B.Sc. Food Science and Technology</h3>
+      <div class="school">Joseph Ayo Babalola University</div>
+      <p>My academic background taught me analytical thinking, discipline, research, and problem-solving — skills I now apply to software development.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-inner reveal">
+      <div>
+        <span class="kicker" style="color:#D9B25C;">Let's Build Something</span>
+        <h2>Have a project or opportunity?</h2>
+        <p>I'm currently looking for opportunities to grow professionally as a Full-Stack Web Developer. Whether you're building a startup, developing a product, or looking for a developer to join your team, I'd love to connect.</p>
+        <div class="contact-cta">
+          <a href="mailto:oluwaloniagboluaje@gmail.com" class="btn btn-primary">Let's talk →</a>
+        </div>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:oluwaloniagboluaje@gmail.com" class="contact-row">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#FAF6EC" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+          oluwaloniagboluaje@gmail.com
+        </a>
+        <a href="https://github.com/oluwaloniagboluaje-rgb" target="_blank" rel="noopener" class="contact-row">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#FAF6EC" stroke-width="1.8"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></span>
+          github.com/oluwaloniagboluaje-rgb
+        </a>
+        <a href="tel:09159941151" class="contact-row">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#FAF6EC" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          09159941151
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div>
+      <div class="footer-brand">Agboluaje Oluwalonimi Margaret</div>
+      <div class="footer-tag">Building · Learning · Creating</div>
+    </div>
+    <div class="footer-copy">© 2026 Agboluaje Oluwalonimi Margaret. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  // mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  // scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => io.observe(el));
+  } else {
+    reveals.forEach(el => el.classList.add('in'));
+  }
+</script>
+
 </body>
-
-</html>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-</body>
-
 </html>
